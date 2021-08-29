@@ -162,6 +162,8 @@
       aos_init();
     });
 
+    $('#portfolio-flters li')[0].click();
+
     // Initiate venobox (lightbox feature used in portofilo)
     $('.venobox').venobox({
       'share': false
@@ -189,3 +191,5 @@
   });
 
 })(jQuery);
+
+$('#portfolio-flters li')[0].click();
