@@ -301,11 +301,13 @@ h6 {
   letter-spacing: 1px;
 }
 
-#hero .social-links {
+#hero .social-links,
+.portfolio .container .social-links {
   margin-top: 30px;
 }
 
-#hero .social-links a {
+#hero .social-links a,
+.portfolio .container .social-links a {
   font-size: 26px;
   display: inline-block;
   color: white;
@@ -1182,7 +1184,8 @@ section {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links a {
+#footer .social-links a,
+.portfolio .container .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #0563bb;
@@ -1197,7 +1200,8 @@ section {
   transition: 0.3s;
 }
 
-#footer .social-links a:hover {
+#footer .social-links a:hover,
+.portfolio .container .social-links a:hover {
   background: #0678e3;
   color: #fff;
   text-decoration: none;
