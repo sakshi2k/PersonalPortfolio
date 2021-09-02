@@ -484,7 +484,7 @@ section {
 }
 
 .skills .progress .skill .val {
-  float: right;
+  float: left;
   font-style: normal;
 }
 
@@ -583,7 +583,7 @@ section {
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 10px 15px;
+  padding: 15px;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -607,7 +607,6 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
 }
 
 .portfolio .portfolio-wrap::before {
@@ -668,9 +667,8 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  font-size: 20px;
-  color: #45505b;
+  font-size: 25px;
+  color: #262627;
   font-weight: 600;
 }
 
@@ -719,6 +717,11 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+.bx-large {
+  font-size: x-large;
+  color: #181f25;
 }
 
 /*--------------------------------------------------------------
