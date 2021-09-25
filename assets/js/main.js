@@ -231,7 +231,7 @@ const toggleTheme = () => {
     for(let i=0; i<resumeTitles.length; i++) {
       resumeTitles[i].style.color = "#2a2d3e";
     }
-       getInTouchBtn.style.color = "#2a2d3e";
+    getInTouchBtn.style.color = "#2a2d3e";
     getInTouchBtn.style.border = "2px solid #2a2d3e";
   }
 }
