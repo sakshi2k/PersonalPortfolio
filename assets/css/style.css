@@ -323,17 +323,17 @@ h6 {
   color: #0563bb;
 }
 
-.getInTouch{
-  color: white;
-  border: 2px solid white;
-}
-
 .profileImg {
   border-radius: 50%;
 }
 
 .introText{
   transform: scale(1.25,1.25);
+}
+
+.getInTouch{
+  color: white;
+  border: 2px solid white;
 }
 
 @media (max-width: 992px) {
