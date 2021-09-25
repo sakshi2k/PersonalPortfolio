@@ -199,7 +199,6 @@ const toggleTheme = () => {
   if(toggleMode) {
     // Light mode
     console.log("Changing Theme to light");
-    // document.body.style.backgroundColor =  "rgb(241,244,255)";
     document.body.style.backgroundColor =  "white";
     document.body.style.color =  "#2a2d3e";
     toggleMode  = false;
@@ -213,22 +212,27 @@ const toggleTheme = () => {
   
   let socialLinkIcons = document.getElementsByClassName("social-link-icons");
   let resumeTitles = document.getElementsByClassName("resume-title");
+  let getInTouchBtn = document.getElementsByClassName("getInTouch")[0];
   if(toggleMode){
     // Light mode
-    for(let i=0; i<socialLinkIcons.length/2; i++) {
+    for(let i=0; i<socialLinkIcons.length/2-1; i++) {
       socialLinkIcons[i].style.color = "white";
     }
     for(let i=0; i<resumeTitles.length; i++) {
       resumeTitles[i].style.color = "rgb(228, 228, 228)";
     }
+    getInTouchBtn.style.color = "white";
+    getInTouchBtn.style.border = "2px solid white";
   } else {
     // Dark mode
-    for(let i=0; i<socialLinkIcons.length/2; i++) {
+    for(let i=0; i<socialLinkIcons.length/2-1; i++) {
       socialLinkIcons[i].style.color = "#2a2d3e";
     }
     for(let i=0; i<resumeTitles.length; i++) {
       resumeTitles[i].style.color = "#2a2d3e";
     }
+       getInTouchBtn.style.color = "#2a2d3e";
+    getInTouchBtn.style.border = "2px solid #2a2d3e";
   }
 }
 
