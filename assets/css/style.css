@@ -163,7 +163,8 @@ h6 {
   white-space: nowrap;
 }
 
-.nav-menu a {
+.nav-menu a,
+.portfolio-links a {
   display: flex;
   align-items: center;
   color: #45505b;
@@ -180,12 +181,14 @@ h6 {
   transition: 0.3s;
 }
 
-.nav-menu a i {
+.nav-menu a i,
+.portfolio-links a i {
   font-size: 20px;
 }
 
-.nav-menu a span, #toggleSwitch{
-  /* padding: 0 5px 0 7px; */
+.nav-menu a span,
+.portfolio-links a span {
+  padding: 0 5px 0 7px;
   color: #45505b;
 }
 
@@ -201,14 +204,16 @@ h6 {
 
 .nav-menu a:hover,
 .nav-menu .active > a,
-.nav-menu li:hover > a {
+.nav-menu li:hover > a ,
+#toggleSwitch :hover >a{
   color: #fff;
   background: #0563bb;
 }
 
 .nav-menu a:hover span,
 .nav-menu .active > a span,
-.nav-menu li:hover > a span {
+.nav-menu li:hover > a span ,
+#toggleSwitch :hover > a span{
   color: #fff;
 }
 
@@ -301,8 +306,7 @@ h6 {
   letter-spacing: 1px;
 }
 
-#hero .social-links,
-.portfolio .container .social-links {
+#hero .social-links {
   margin-top: 30px;
 }
 
@@ -1186,12 +1190,13 @@ section {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links {
+#footer .social-links,
+.project-icons {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links a,
-.portfolio .container .social-links a {
+#footer .social-links a ,
+.project-icons a{
   font-size: 18px;
   display: inline-block;
   background: #0563bb;
@@ -1207,7 +1212,7 @@ section {
 }
 
 #footer .social-links a:hover,
-.portfolio .container .social-links a:hover {
+.project-icons a:hover {
   background: #0678e3;
   color: #fff;
   text-decoration: none;
