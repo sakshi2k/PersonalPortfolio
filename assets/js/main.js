@@ -4,6 +4,9 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+var toggleMode = true; //Dark -> true, Light -> false; 
+
 !(function($) {
   "use strict";
 
@@ -192,4 +195,42 @@
 
 })(jQuery);
 
+const toggleTheme = () => {
+  if(toggleMode) {
+    // Light mode
+    console.log("Changing Theme to light");
+    // document.body.style.backgroundColor =  "rgb(241,244,255)";
+    document.body.style.backgroundColor =  "white";
+    document.body.style.color =  "#2a2d3e";
+    toggleMode  = false;
+  } else {
+    // Dark mode
+    console.log("Changing Theme to dark");
+    document.body.style.backgroundColor =  "#2a2d3e";
+    document.body.style.color =  "white";
+    toggleMode  = true;
+  }
+  
+  let socialLinkIcons = document.getElementsByClassName("social-link-icons");
+  let resumeTitles = document.getElementsByClassName("resume-title");
+  if(toggleMode){
+    // Light mode
+    for(let i=0; i<socialLinkIcons.length/2; i++) {
+      socialLinkIcons[i].style.color = "white";
+    }
+    for(let i=0; i<resumeTitles.length; i++) {
+      resumeTitles[i].style.color = "rgb(228, 228, 228)";
+    }
+  } else {
+    // Dark mode
+    for(let i=0; i<socialLinkIcons.length/2; i++) {
+      socialLinkIcons[i].style.color = "#2a2d3e";
+    }
+    for(let i=0; i<resumeTitles.length; i++) {
+      resumeTitles[i].style.color = "#2a2d3e";
+    }
+  }
+}
+
 $('#portfolio-flters li')[0].click();
+// toggleTheme();toggleTheme();
