@@ -184,8 +184,8 @@ h6 {
   font-size: 20px;
 }
 
-.nav-menu a span{
-  padding: 0 5px 0 7px;
+.nav-menu a span, #toggleSwitch{
+  /* padding: 0 5px 0 7px; */
   color: #45505b;
 }
 

@@ -233,4 +233,3 @@ const toggleTheme = () => {
 }
 
 $('#portfolio-flters li')[0].click();
-// toggleTheme();toggleTheme();
