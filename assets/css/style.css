@@ -1201,7 +1201,7 @@ section {
 }
 
 #footer .social-links a ,
-.project-icons a{
+.project-icons .social-link-icons{
   font-size: 18px;
   display: inline-block;
   background: #0563bb;
@@ -1216,8 +1216,12 @@ section {
   transition: 0.3s;
 }
 
+.gotoapp{
+  float: right;
+}
+
 #footer .social-links a:hover,
-.project-icons a:hover {
+.project-icons .social-link-icons:hover {
   background: #0678e3;
   color: #fff;
   text-decoration: none;

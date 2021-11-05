@@ -1,0 +1,33 @@
+body {
+    background-color: #2a2d3e;
+}
+.card {
+    color: #2a2d3e;
+    background-color: #f4f5fc;
+    padding: 6px;
+}
+.card-title {
+    font-weight: bold;
+}
+.project-icons{
+    margin: 0;
+}
+.techstach > a {
+    background-color: #2a2d3e;
+    border-radius: 2px;
+    color: white;
+    padding: 2px 5px;
+    margin: 2px 2px 2px 0;
+    font-size: small;
+    width: 100%;
+}
+.tech {
+    color: white;
+    margin-top: 20pt;
+}
+.card-body{
+    /* padding: 10pt; */
+}
+.col-lg-4{
+    margin-bottom: 10pt;
+}
